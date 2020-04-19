@@ -9,9 +9,9 @@ dependencies:
   - r-devtools
   - python
   - jupyterlab==2.1.0
-  - ipywidgets==8.0.0a0
   - numpy
   - pandas
   - pip
   - pip:
+      - ipywidgets==8.0.0a0
       - upsetjs_jupyter_widget
