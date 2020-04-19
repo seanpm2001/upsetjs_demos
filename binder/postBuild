@@ -4,4 +4,5 @@ set -ex
 Rscript -e "devtools::install_url(\"https://github.com/upsetjs/upsetjs_r/releases/latest/download/upsetjs.tar.gz\")"
 
 # Install JupyterLab extension
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@3.0.0.alpha-0 @upsetjs/jupyter_widget
+jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@3.0.0.alpha.0 @upsetjs/jupyter_widget
